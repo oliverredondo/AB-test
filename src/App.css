@@ -1,0 +1,102 @@
+@font-face {
+  font-family: Snask;
+  src: url("./assets/Snaskface-Bold.woff2");
+}
+
+@font-face {
+  font-family: Apercu;
+  src: url("./assets/apercu_bold-webfont.woff2");
+}
+
+* {
+  font-family: Apercu, Arial, Helvetica;
+  letter-spacing: normal;
+}
+
+body {
+  background-image: url(/public/pinkfur.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+h1 {
+  font-size: 10rem;
+  font-family: Snask;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+  margin-top: -70px;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  line-height: normal;
+}
+
+button {
+  /* height: 100px; */
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+  width: 300px;
+  align-self: center;
+  border-radius: 12rem;
+}
+
+form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.hero {
+  /* height: 100vh; */
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgb(138 43 226 / 50%);
+
+  border-radius: 10rem;
+}
+
+.opt1 {
+  height: 100px;
+  padding: 20px;
+  display: inline-block;
+  font-size: 1.2rem;
+  align-self: center;
+}
+
+.opt2 {
+  height: 100px;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 10rem;
+  font-size: 1.2rem;
+  align-self: center;
+}
