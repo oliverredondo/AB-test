@@ -51,7 +51,7 @@ function App() {
             <p>
               Working in a multicultural environment can often lead to unwanted
               misunderstandings.
-              <br />
+              
               Explore the wonders of improving your soft skills for an efficient
               communication.
             </p>

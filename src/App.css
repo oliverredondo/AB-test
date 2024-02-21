@@ -11,6 +11,8 @@
 * {
   font-family: Apercu, Arial, Helvetica;
   letter-spacing: normal;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
@@ -19,6 +21,7 @@ body {
   background-repeat: no-repeat;
   padding-left: 4rem;
   padding-right: 4rem;
+  padding-top: 4rem;
 }
 
 h1 {
@@ -26,10 +29,6 @@ h1 {
   font-family: Snask;
   color: white;
   text-shadow: 2px 2px 2px black;
-}
-
-h2 {
-  margin-top: -70px;
 }
 
 h2 {
@@ -41,7 +40,6 @@ p {
 }
 
 button {
-  /* height: 100px; */
   margin-top: 10px;
   padding: 10px;
   font-size: 1rem;
@@ -55,6 +53,8 @@ form {
   width: 300px;
   display: flex;
   flex-direction: column;
+
+  justify-content: center;
 }
 
 .form-group {
@@ -80,21 +80,22 @@ form {
   display: grid;
   grid-template-columns: auto auto;
   background-color: rgb(138 43 226 / 50%);
-
   border-radius: 10rem;
+  margin-top: 6rem;
+  padding: 14px;
+  gap: 20px;
+  justify-content: space-around;
 }
 
 .opt1 {
-  height: 100px;
-  padding: 20px;
+  width: 600px;
   display: inline-block;
   font-size: 1.2rem;
   align-self: center;
 }
 
 .opt2 {
-  height: 100px;
-  padding: 20px;
+  width: 600px;
   display: inline-block;
   border-radius: 10rem;
   font-size: 1.2rem;
